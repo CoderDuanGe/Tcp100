@@ -85,9 +85,6 @@ int main()
 		printf("errno accept...\n");
 	}
 	printf("new server join: socket=%d IP = %s \n", (int)_cSock, inet_ntoa(clientAddr.sin_addr));
-
-
-
 	while (true)
 	{
 		DataHeader header = {};

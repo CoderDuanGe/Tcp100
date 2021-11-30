@@ -27,7 +27,6 @@ struct Login
 struct LoginResult
 {
 	int result;
-
 };
 
 struct Logout
